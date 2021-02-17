@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet">
+        <link href="./style/style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Fauna+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -12,7 +12,7 @@
     <body>
         <header id="header" class="sticky-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="./images/JoDesignHalf.png"></a>
+                <a class="navbar-brand" href="#"><img class="processImg" src="./images/JoDesignHalf.png"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -39,7 +39,7 @@
                 </ul>
                 <span class="navbar-text">
                     Jodi Gullickson<br>
-                    PROJECT NAME<br>
+                    Toys for Tots - Redesign<br>
                     UX Designer
                 </span>
                 </div>
@@ -150,79 +150,245 @@
             <div class="container">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Collapsible Group Item #1
-                        </button>
-                        </h2>
-                    </div>
-                
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="container">
-                                <div class="row">
-                                <div class="col">
-                                    <h3>Overview</h3>
-                                    <p> words words words</p>
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Step 1) Empathize
+                            </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3>Create a Protopersona</h3>
+                                            <p>It is important to understand who it is you are designing for. This is what sets us apart as UX Designers. For this project, we decided to design keeping a working hockey-mom in mind. Someone with children of her own, a busy schedule, and little time to spare.</p>
+                                        </div>
+                                        <div class="col-7">
+                                            <img class="processImg" src="./images/t4tprotopersona.jpg">
+                                        </div>
+                                    </div>        
                                 </div>
-                                <div class="col-7">
-                                    IMAGE
-                                </div>
-                                </div>                
-                            </div>
-                    </div>
-                    </div>
-                    <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Collapsible Group Item #2
-                        </button>
-                        </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="container">
-                                <div class="row">
-                                <div class="col">
-                                    <h3>Overview</h3>
-                                    <p> words words words</p>
-                                </div>
-                                <div class="col-7">
-                                    IMAGE
-                                </div>
-                                </div>                
                             </div>
                         </div>
                     </div>
-                    </div>
-                    <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Collapsible Group Item #3
-                        </button>
-                        </h2>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="container">
-                                <div class="row">
-                                <div class="col">
-                                    <h3>Overview</h3>
-                                    <p> words words words</p>
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Step 2) Define
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="container">
+
+                                        <div class="row">
+                                            <div class="col"><h3>Affinity Diagram</h3></div>
+                                            <div class="col-7"><img class="processImg" src="./images/t4tAffinityDiagram.jpg"></div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col"><h3>User Insignt</h3></div>
+                                            <div class="col-7"><p>A suburban hockey mom wants to teach her children about generosity and giving back to their community through working with local nonprofits during the holiday season, because she wants them to understand that the holidays are more than Christmas lights and presents under the Christmas tree.</p></div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>Create an Empathy Map</h3>
+                                            </div>
+                                            <div class="col-7">
+                                                <p>Expanding off of our previously created protopersona, and the key findings from our research, the team brainstormed more personal information to better connect with our user and to help offer the most effective solutions.</p>
+                                                <img class="processImg" src="./images/T4tEmpathy Map.jpg">
+                                            </div>
+                                        </div> 
+                                    </div>
                                 </div>
-                                <div class="col-7">
-                                    IMAGE
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Step 3) Ideation
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>Problem Statement</h3>
+                                            </div>
+                                            <div class="col-7">
+                                                <p> The Toys for Tots website was built to share information about their annual toy drive and help organize volunteers. We observed that the website was lacking in accessible functionality and festive cheer. How might we improve the digital experience to help bolster toy donations and volunteer efforts for this non-profit?</p>
+                                                <img class="processImg" src="./images/T4tLikeWishIf.png"><br>
+                                                <img class="processImg" src="./images/T4tFeatureMatrix.png">
+                                            </div>
+                                        </div>    
+
+                                        <div class="row">
+                                            <div class="col"><h3>UX Hypothesis</h3></div>
+                                            <div class="col-7"><p>If the Toys for Tot's website offered a clearer way to find donation locations, virtual toy donation, and resources for volunteers, we believe their annual toy drives would be more successful.</p></div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>Value Proposition</h3>
+                                            </div>
+                                            <div class="col-7">
+                                                <p> Next we defined why the work we were doing with the redesign was worth stakeholder time and what benefits and solutions our redesign would offer. We decided on building these features:</p>
+                                                <ul>
+                                                    <li>Location Finder</li>
+                                                    <li>Forms Contact Us Page</li>
+                                                    <li>Monetary Donation Page</li>
+                                                    <li>Automated volunteer Portal</li>
+                                                </ul>
+                                                <img class="processImg" src="./images/T4tValueProp.jpg">
+                                            </div>
+                                        </div>   
+                                        
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>Card Sorting & Sitemap </h3>
+                                            </div>
+                                            <div class="col-7">
+                                                <p> Now that we know what we want to build, it's time to decide where it will live on the site. To determine this we completed card sorting on the existing page to make sure we kept all necessary information and to help organize it better. (If you can recall, the navigation being confusing was a key finding from our research phase)</p>
+                                                <img class="processImg" src="./images/T4tCardSorting.jpg">
+                                                <img class="processImg" src="./images/T4tSiteMap.jpg">
+
+                                            </div>
+                                        </div>  
+                                    </div>
                                 </div>
-                                </div>                
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Step 4) Prototype
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>User Flow</h3>
+                                            </div>
+                                            <div class="col-7">
+                                                <p> Previously, we narrowed down what features we could offer, next we mapped out the user flows we intended to build:</p>
+                                                <ul>
+                                                    <li>Toy Dropoff Locations</li>
+                                                    <li>Monetary Donation</li>
+                                                    <li>Volunteer Signup Process</li>
+                                                    <li>Contact Us Form</li>
+                                                </ul>
+                                                <img class="processImg" src="./images/T4tUserflow.jpg">
+                                            </div>
+                                        </div>                
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>Wire Frames</h3>
+                                            </div>
+                                            <div class="col-7">
+                                                <p> With four designers and four different userflows to create, where do you start?</p>
+                                                <p>We started by everyone wireframing a home page and then combining the ideas to solidify the general look and feel of the website</p>
+                                                <img class="processImg" src="./images/HomeWireFrames.gif">
+                                                <p>Next we each chose a path and completed both a mobile and desktop wireframe for that section. I was assigned the volunteer portal.</p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Collapsible Group Item #2
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>Overview</h3>
+                                                <p> words words words</p>
+                                            </div>
+                                            <div class="col-7">
+                                                IMAGE
+                                            </div>
+                                        </div>                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                                <div class="card-header" id="headingSix">
+                                    <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Collapsible Group Item #2
+                                    </button>
+                                    </h2>
+                                </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3>Overview</h3>
+                                                <p> words words words</p>
+                                            </div>
+                                            <div class="col-7">
+                                                IMAGE
+                                            </div>
+                                        </div>                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                                    <div class="card-header" id="headingSeven">
+                                        <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            Collapsible Group Item #2
+                                        </button>
+                                        </h2>
+                                    </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3>Overview</h3>
+                                            <p> words words words</p>
+                                        </div>
+                                        <div class="col-7">
+                                        IMAGE
+                                        </div>
+                                    </div>                
+                                </div>
                             </div>
                         </div>
                     </div>
-                    </div>
                 </div>
-                </div>
+            </div>
         </div> 
         </section>
 
